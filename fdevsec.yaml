@@ -1,0 +1,15 @@
+version: v1
+
+id:
+  org: 2e3b7756-bbaa-4d09-8ee1-8beabd0c6a2c
+  app: 6bbd8505-a2a8-49b0-85e9-cc5a5ce886b0
+
+scanners:
+  - sast
+  - secret
+  - sca
+  - iac
+  - container 
+
+resource:
+  serial_scan: false
