@@ -68,17 +68,38 @@ For other questions related to this project, contact [github@fortinet.com](mailt
 ## License
 [License](https://github.com/fortinet/fortigate-terraform-deploy/blob/master/LICENSE) © Fortinet Technologies. All rights reserved.
 
+
+## Application Catalog/Image ID for deployment
 Marketplace Catalog for mp_listing_id in variables.tf
 x86
-BYOL 7.4.0: ocid1.appcataloglisting.oc1..aaaaaaaam7ewzrjbltqiarxukuk72v2lqkdtpqtwxqpszqqvrm7likfnpt5q
-PAYG 7.4.0 2ocpu: ocid1.appcataloglisting.oc1..aaaaaaaaif6zctibx6njnmob2a23l5if7voquhgsfqxi2ftog2yy3jxmuaba
-PAYG 7.4.0 4ocup: ocid1.appcataloglisting.oc1..aaaaaaaa6d5wbjlrlihw7l33nvdso74lv2s66snabevr33awotpgjownggiq
-PAYG 7.4.0 8ocup: ocid1.appcataloglisting.oc1..aaaaaaaa6e3iscizq3p24bfb5nr4wxsxzc3s6mzpekxgv7f2kse35akhg45q
-PAYG 7.4.0 24ocup: ocid1.appcataloglisting.oc1..aaaaaaaamc75m7b3rukv6vd573mdrdqnlqabrbhmz5fggvvtalq3ckfl3zqa
+BYOL 7.4.3: ocid1.appcataloglisting.oc1..aaaaaaaam7ewzrjbltqiarxukuk72v2lqkdtpqtwxqpszqqvrm7likfnpt5q
+PAYG 7.4.3 2ocpu:  ocid1.appcataloglisting.oc1..aaaaaaaaif6zctibx6njnmob2a23l5if7voquhgsfqxi2ftog2yy3jxmuaba
+PAYG 7.4.3 4ocup:  ocid1.appcataloglisting.oc1..aaaaaaaabepjdf2sw2jkr77a7zrbog7ukzxepoexzgkoyvbw2j2jn7l4y7lq
+PAYG 7.4.3 8ocup: ocid1.appcataloglisting.oc1..aaaaaaaa6e3iscizq3p24bfb5nr4wxsxzc3s6mzpekxgv7f2kse35akhg45q
+PAYG 7.4.3 16ocup:  ocid1.appcataloglisting.oc1..aaaaaaaawyxdympmdyxagwj2kr77zybopywouiivxd7vxfttwftkvnw2lqla
+PAYG 7.4.3 24ocup:  ocid1.appcataloglisting.oc1..aaaaaaaamc75m7b3rukv6vd573mdrdqnlqabrbhmz5fggvvtalq3ckfl3zqa
 
 Marketplace Image for mp_listing_resource_id in variables.tf
-BYOL 7.4.0: ocid1.image.oc1..aaaaaaaavuhxpr5aszekp3ky6h4cm7at4hu67ibewp2adsdbmaut7ir5n2gq
-PAYG 7.4.0 2ocpu: ocid1.image.oc1..aaaaaaaalde5qyzwbmwvvdcnwh5eu4xjdicchd355qm6glzfwdxna634ir7q
-PAYG 7.4.0 4ocup: ocid1.image.oc1..aaaaaaaanpziqsvtarsq6s7xp4r54i67dyuoha7yx224qeyh5aqceqgez47a
-PAYG 7.4.0 8ocup: ocid1.image.oc1..aaaaaaaacxjbje3eidohvy6xep4qnbkgwyp4ymdiwdsetwwaui5u6d3pon5q
-PAYG 7.4.0 24ocup: ocid1.image.oc1..aaaaaaaaoyfxijszlxjmwra5typ4rl3rhlmxiagwgi5zg62bpl6ozp6dtida
+BYOL 7.4.3:  ocid1.image.oc1..aaaaaaaaq57pywudjr5yogjtl6qf3zs3yrwv66b5ooeiqykjgnneuerhfnia
+PAYG 7.4.3 2ocpu:  ocid1.image.oc1..aaaaaaaaar3ixywupg2osmaaqxhknw4y7vqe3mc565nh45zo6zy5nb5dbaxa
+PAYG 7.4.3 4ocup: ocid1.image.oc1..aaaaaaaafxpuqixoz4oifanzdpzjn3kpap4i6zmr3vz2ykevxefe34hvkoqq
+PAYG 7.4.3 8ocup: ocid1.image.oc1..aaaaaaaaytxx2luau4rukn6forinnagzjdddqxe3abaafukrnxwxsab2edxq
+PAYG 7.4.3 16ocup: ocid1.image.oc1..aaaaaaaapppoue5tmnc4nq56p5mttcikrp37oy2nvsreshd4f5f3vdzooxuq
+PAYG 7.4.3 24ocup: ocid1.image.oc1..aaaaaaaavszdkeekbvamoelfuxdokzqn7rxbzjmmxjwi26uhnae3voozpggq
+
+
+ARM
+BYOL 7.4.3: ocid1.appcataloglisting.oc1..aaaaaaaam7ewzrjbltqiarxukuk72v2lqkdtpqtwxqpszqqvrm7likfnpt5q
+PAYG 7.4.3 2ocpu:  ocid1.appcataloglisting.oc1..aaaaaaaaif6zctibx6njnmob2a23l5if7voquhgsfqxi2ftog2yy3jxmuaba
+PAYG 7.4.3 4ocup:  ocid1.appcataloglisting.oc1..aaaaaaaabepjdf2sw2jkr77a7zrbog7ukzxepoexzgkoyvbw2j2jn7l4y7lq
+PAYG 7.4.3 8ocup: ocid1.appcataloglisting.oc1..aaaaaaaa6e3iscizq3p24bfb5nr4wxsxzc3s6mzpekxgv7f2kse35akhg45q
+PAYG 7.4.3 16ocup: ocid1.appcataloglisting.oc1..aaaaaaaawyxdympmdyxagwj2kr77zybopywouiivxd7vxfttwftkvnw2lqla
+PAYG 7.4.3 24ocup: ocid1.appcataloglisting.oc1..aaaaaaaamc75m7b3rukv6vd573mdrdqnlqabrbhmz5fggvvtalq3ckfl3zqa
+
+Marketplace Image for mp_listing_resource_id in variables.tf
+BYOL 7.4.3:  ocid1.image.oc1..aaaaaaaa232uwkhl5d6tvjk63uchznv7rrjnzonql6m4ynf6nqmskuujx5iq
+PAYG 7.4.3 2ocpu:  ocid1.image.oc1..aaaaaaaaj6gb4m6tim4lf3gv4zdusu7hjwb25hka2kb7ich4hdfe4kabxv7q
+PAYG 7.4.3 4ocup:  ocid1.image.oc1..aaaaaaaarwt2hkj5o24fngjambnt3r72dan67jyppn6pgylgscmtg5rw6aaa
+PAYG 7.4.3 8ocup: ocid1.image.oc1..aaaaaaaaewhsoyjl4qrd7667kmzuqfjpteyvmchfjrbrbdwg2kvdcxkdn4wq
+PAYG 7.4.3 16ocup:  ocid1.image.oc1..aaaaaaaamdyng4uicaektz24wkbqf6i4ot2evudxtr2u4lovayoxv63icdfq
+PAYG 7.4.3 24ocup: ocid1.image.oc1..aaaaaaaasp3wjkouan4ohe2y5wxk6hu5yn6kfkvzd72ujxlmlozo32glp6la
